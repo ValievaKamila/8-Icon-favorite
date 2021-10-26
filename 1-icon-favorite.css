@@ -1,0 +1,19 @@
+
+* {
+    background-color: #f6f6f6;
+}
+
+#icon {
+    display: block;
+    margin: auto;
+    transform: scale(0.4);
+    filter:grayscale(100%);
+    transition-property: all;
+    transition-duration: 5s;
+    cursor: pointer;
+}
+
+#icon:hover {
+    transform: scale(1);
+    filter: none;
+}
